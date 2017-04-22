@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /
+
+# Remove trailing slash
+RewriteRule ^(work|about|contact)/$ /$1 [L,R=301]
+
+# Remove file extension
+RewriteRule ^(work|about|contact)/?$ /$1.html [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]

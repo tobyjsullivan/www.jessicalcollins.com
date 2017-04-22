@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Recruitment & Branding</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="" />
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header class="main-header">
+        <h1><a href="/">Jessica Collins</a></h1>
+        <nav>
+            <ul class="menu">
+                <button><img src="/img/menuicon.jpg"></button>
+                <li><a href="/work" class="active">Work</a> </li>
+                <li><a href="/about">About</a> </li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+            <ul class="socialmedia">
+                <li>
+                    <a href="//www.linkedin.com/in/jessica-collins-3964b074" target="_blank">Linkedin</a>
+                </li>
+                <li>
+                    <a href="//www.facebook.com/profile.php?id=830949185" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="//twitter.com/jessleicollins" target="_blank">Twitter</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="subpage">
+        <section class="work">
+            <header>
+                <h2>Work</h2>
+            </header>
+            <article>
+                <p>With over eight years of marketing experience in Canada and Australia, I have worked across a number of industries, including retail, healthcare, not-for-profit and recruitment. Although the audiences may have changed over the years, the same fundamental marketing principles still apply. Whether you’re looking to engage with consumers, candidates or employees, I can help you create a plan for developing authentic, engaging and compelling content that is tailored to the unique needs of your audience.</p>
+            </article>
+        </section>
+        <section class="recruitment">
+            <header>
+                <h2>Recruitment Marketing and Employer Branding</h2>
+            </header>
+            <article class="description">
+                <p>You may have a great business built on a novel idea, but you still need passionate and talented people to help you succeed. From Software Developers to Sales Reps and CEOs, I have developed comprehensive marketing strategies for attracting, engaging and retaining quality talent to a variety of organizations, including Flight Centre. With a focus on employer brand and EVP development, I’ve created compelling content and effective advertising for attracting Band Managers in British Columbia, Engineers in Alberta, Instructors in Nunavut and more. In 2015, I was the Top Global Recruitment Marketing Specialist at Employment Office.</p>
+                <p>Whether you need assistance with market research, job analysis, copywriting and content creation, digital or print advertising, video production or social media management, I can help you formulate an effective strategy for talent attraction.</p>
+                <h3>Skills and projects</h3>
+                <ul>
+                    <li>EVP development</li>
+                    <li>Talent attraction strategy</li>
+                    <li>Employee engagement surveys</li>
+                    <li>Job analysis and copywriting</li>
+                    <li>Advertising deployment</li>
+                    <li>Candidate management</li>
+                    <li>Analytics and reporting</li>
+                </ul>
+            </article>
+        </section>
+        <section class="events">
+            <header>
+                <h2>Project and Event Management</h2>
+            </header>
+            <article class="description">
+                <p>From organizing corporate events for 700+ guests, to launching new products and services, I love managing projects! With a background as a Marketing Project Manager, I am detail oriented and process driven. I have also worked on a wide variety of successful projects, including:</p>
+                <h3>Skills and projects</h3>
+                <ul>
+                    <li>Assisted with the launch of <a href="//1800bulkbill.com.au/" target="_blank">1800 Bulk Bill</a> for Primary Health Care Limited</li>
+                    <li>Assisted with the rebrand of Primary Health Care’s <a href="//doctors.primaryhealthcare.com.au/" target="_blank">Medical Centre’s</a> division to improve practitioner recruitment</li>
+                    <li>Managed the advertising strategies for 80+ medical facilities across Australia</li>
+                    <li>Assisted with the nominations for the <a href="//sbbcawards.ca/" target="_blank">Small Business BC Awards 2014</a></li>
+                    <li>Organizing Franklins’ annual Gala Dinner & Supplier Awards Night for 700+ guests</li>
+                    <li>Publishing the bi-monthly company magazine for Franklins</li>
+                    <li>Articles and <a href="//theemploymentoffice.ca/how-to-stay-ahead-of-the-hiring-game/" target="_blank">blog posts</a> for employment office</li>
+                </ul>
+            </article>
+        </section>
+    </main>  
+
+    <footer>
+        <h4>&copy 2016 - Jessica Collins</h4>
+    </footer>
+
+    <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Jessica Collins",
+      "url" : "http://jessicalcollins.com/",
+      "sameAs" : [
+        "https://www.linkedin.com/in/jessica-collins-3964b074",
+        "https://www.facebook.com/profile.php?id=830949185",
+        "https://twitter.com/jessleicollins"
+      ]
+    }
+    </script>
+</body>
+</html>

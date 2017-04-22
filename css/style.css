@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #000;
+  -webkit-appearance: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 300;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 22px;
+}
+h4 {
+  font-size: 16px;
+}
+p {
+  font-size: 18px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+a:hover {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+input {
+  outline: none;
+}
+button {
+  outline: none;
+  background: none;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+.socialmedia li a {
+  float: left;
+  display: block;
+  text-indent: -9999px;
+}
+.socialmedia li a:before {
+  float: left;
+  display: block;
+  text-indent: 0;
+}
+.socialmedia li:nth-child(1) a:before {
+  content: url(/img/linkedin.png);
+}
+.socialmedia li:nth-child(2) {
+  margin: 0 20px;
+}
+.socialmedia li:nth-child(2) a:before {
+  content: url(/img/facebook.png);
+}
+.socialmedia li:nth-child(3) a:before {
+  content: url(/img/twitter.png);
+}
+.main-header {
+  overflow: auto;
+  max-width: 1140px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.main-header h1 {
+  float: left;
+}
+.main-header h1 a {
+  color: #000;
+}
+.main-header nav {
+  float: right;
+}
+.main-header nav ul {
+  overflow: auto;
+}
+.main-header nav ul li {
+  float: left;
+  display: block;
+  text-align: center;
+}
+.main-header nav ul.menu {
+  float: left;
+  margin: 12px 30px 0 0;
+}
+.main-header nav ul.menu button {
+  float: right;
+  display: none;
+  padding: 2px 5px 0;
+  border: 1px solid #000;
+}
+.main-header nav ul.menu li {
+  width: 100px;
+  font-size: 18px;
+}
+.main-header nav ul.menu li a {
+  letter-spacing: 1px;
+  color: #000;
+}
+.main-header nav ul.menu li a.active,
+.main-header nav ul.menu li a:hover {
+  color: #5fc697;
+}
+.main-header nav ul.socialmedia {
+  float: right;
+  margin: 5px 0 0;
+}
+.main-header nav ul.socialmedia li a {
+  float: left;
+  display: block;
+  text-indent: -9999px;
+}
+.main-header nav ul.socialmedia li a:before {
+  float: left;
+  display: block;
+  text-indent: 0;
+}
+.main-header nav ul.socialmedia li:nth-child(1) a:before {
+  content: url(/img/linkedin.png);
+}
+.main-header nav ul.socialmedia li:nth-child(2) {
+  margin: 0 20px;
+}
+.main-header nav ul.socialmedia li:nth-child(2) a:before {
+  content: url(/img/facebook.png);
+}
+.main-header nav ul.socialmedia li:nth-child(3) a:before {
+  content: url(/img/twitter.png);
+}
+main section.home {
+  padding: 15% 0;
+  background: fixed center center url(/img/homebg.jpg) no-repeat;
+  background-size: cover;
+}
+main section.home article {
+  max-width: 1140px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+main section.home article h2 {
+  margin-bottom: 30px;
+}
+main section.home article p {
+  max-width: 600px;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+main section.portfolio {
+  max-width: 1140px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+main section.portfolio ul {
+  overflow: auto;
+}
+main section.portfolio ul li {
+  float: left;
+  display: block;
+  width: 33.33%;
+  height: 265px;
+  box-sizing: border-box;
+  text-align: center;
+}
+main section.portfolio ul li a {
+  display: block;
+  padding: 15% 10%;
+  color: #fff;
+}
+main section.portfolio ul li a h3 {
+  margin-bottom: 15px;
+}
+main section.portfolio ul li a p {
+  line-height: 1.5;
+}
+main section.portfolio ul li:nth-child(1),
+main section.portfolio ul li:nth-child(6),
+main section.portfolio ul li:nth-child(8) {
+  background: #5fc697;
+}
+main section.portfolio ul li:nth-child(2) {
+  background: url(/img/list/listitem2.jpg) no-repeat;
+  background-size: cover;
+}
+main section.portfolio ul li:nth-child(3) {
+  background: url(/img/list/listitem3.jpg) no-repeat;
+  background-size: cover;
+}
+main section.portfolio ul li:nth-child(4) {
+  background: url(/img/list/listitem4.jpg) no-repeat;
+  background-size: cover;
+}
+main section.portfolio ul li:nth-child(5) {
+  background: url(/img/list/listitem5.jpg) no-repeat;
+  background-size: cover;
+}
+main section.portfolio ul li:nth-child(7) {
+  background: url(/img/list/listitem7.jpg) no-repeat;
+  background-size: cover;
+}
+main section.portfolio ul li:nth-child(9) {
+  background: url(/img/list/listitem9.jpg) no-repeat;
+  background-size: cover;
+}
+main.subpage section header {
+  text-align: center;
+  padding: 10% 0;
+}
+main.subpage section header h2 {
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+main.subpage section article {
+  overflow: auto;
+  max-width: 1140px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+main.subpage section article img {
+  display: block;
+  float: left;
+  max-width: 80%;
+  margin: 0 50px 0 0;
+}
+main.subpage section article p {
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+main.subpage section article h3 {
+  margin: 10px 0 20px;
+}
+main.subpage section article ul {
+  overflow: auto;
+  padding: 0 20px;
+}
+main.subpage section article ul li {
+  list-style: disc;
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+main.subpage section article ul.socialmedia {
+  overflow: auto;
+  max-width: 145px;
+  width: 80%;
+  margin: 50px auto 0;
+}
+main.subpage section article ul.socialmedia li a {
+  float: left;
+  display: block;
+  text-indent: -9999px;
+}
+main.subpage section article ul.socialmedia li a:before {
+  float: left;
+  display: block;
+  text-indent: 0;
+}
+main.subpage section article ul.socialmedia li:nth-child(1) a:before {
+  content: url(/img/linkedin.png);
+}
+main.subpage section article ul.socialmedia li:nth-child(2) {
+  margin: 0 20px;
+}
+main.subpage section article ul.socialmedia li:nth-child(2) a:before {
+  content: url(/img/facebook.png);
+}
+main.subpage section article ul.socialmedia li:nth-child(3) a:before {
+  content: url(/img/twitter.png);
+}
+main.subpage section article ul.socialmedia li {
+  float: left;
+  display: block;
+}
+main.subpage section.work header {
+  background: center center url(/img/workbg.jpg) no-repeat;
+  background-size: cover;
+}
+main.subpage section.recruitment header {
+  background: url(/img/recruitmentbg.jpg) no-repeat;
+  background-size: cover;
+}
+main.subpage section.events header {
+  background: center left url(/img/eventsbg.jpg) no-repeat;
+  background-size: cover;
+}
+main.subpage section.events a {
+  color: #5fc697;
+  border-bottom: 2px solid transparent;
+}
+main.subpage section.events a:hover {
+  border-bottom: 2px solid #5fc697;
+}
+main.subpage section.about header {
+  background: center center url(/img/aboutbg.jpg) no-repeat;
+  background-size: cover;
+}
+main.subpage section.contact header {
+  background: bottom center url(/img/contactbg.jpg) no-repeat;
+  background-size: cover;
+}
+main.subpage section.contact article {
+  text-align: center;
+}
+main.subpage section.contact article a {
+  font-size: 20px;
+  color: #000;
+}
+main.subpage section.contact article a:hover {
+  color: #5fc697;
+}
+footer {
+  overflow: auto;
+  text-align: center;
+  padding: 25px 0;
+}
+@media only screen and (max-width: 1070px) {
+  main section.portfolio ul li {
+    width: 50%;
+  }
+  main section.portfolio ul li:nth-child(3) {
+    display: none;
+  }
+  main section.portfolio ul li:nth-child(6) {
+    float: right;
+  }
+}
+@media only screen and (max-width: 895px) {
+  .main-header nav ul.socialmedia {
+    display: none;
+  }
+}
+@media only screen and (max-width: 735px) {
+  .main-header h1 {
+    margin: 5px 0 0;
+  }
+  .main-header nav ul.menu {
+    margin: 0;
+  }
+  .main-header nav ul.menu button {
+    display: block;
+    cursor: pointer;
+  }
+  .main-header nav ul.menu li {
+    clear: both;
+    float: none;
+    display: none;
+    width: auto;
+    text-align: right;
+  }
+  .main-header nav ul.menu:hover li {
+    display: block;
+    margin: 10px 0;
+  }
+  .main-header nav ul.menu:hover li:nth-child(2) {
+    margin: 68px 0 10px;
+  }
+  main section.portfolio ul li {
+    width: 100%;
+    height: 235px;
+  }
+  main section.portfolio ul li:nth-child(6) {
+    float: right;
+  }
+}
+@media only screen and (max-width: 650px) {
+  header h1,
+  header nav {
+    text-align: center;
+  }
+  header h1 {
+    font-size: 28px;
+  }
+  header nav {
+    max-width: 300px;
+  }
+  footer h4,
+  footer nav {
+    float: none;
+    text-align: center;
+  }
+  footer nav {
+    max-width: 145px;
+    margin: 40px auto 10px;
+  }
+}

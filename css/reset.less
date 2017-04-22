@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+body {
+    font-family: @standardFont;
+    font-weight: @fontWeight;
+    color: @textColor;
+    -webkit-appearance: none;
+}
+h1, h2, h3, h4 {
+    font-weight: @fontWeight;
+}
+h1 {
+    font-size: @H1SIZE;
+}
+h2 {
+    font-size: @H2SIZE;
+}
+h3 {
+    font-size: @H3SIZE;
+}
+h4 {
+    font-size: @H4SIZE;
+}
+p {
+    font-size: @PSIZE;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    outline: none;
+    .transition;
+    &:hover {
+        .transition;
+    }
+}
+input {
+    outline: none;
+}
+button {
+    outline: none;
+    background: none;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0
+}

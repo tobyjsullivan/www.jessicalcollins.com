@@ -1,0 +1,44 @@
+.container(@width: 1140px, @margin: 0 auto) {
+    max-width: @width;
+    width: 80%;
+    margin: @margin;
+}
+
+.transition(@transition: all .5s) {
+    -webkit-transition: @transition;
+    -moz-transition: @transition;
+    -ms-transition: @transition;
+    -o-transition: @transition;
+    transition: @transition;
+}
+
+.socialmedia {
+	li {
+		a {
+			float: left;
+			display: block;
+			text-indent: -9999px;
+			&:before {
+				float: left;
+				display: block;
+				text-indent: 0;
+			}
+		}
+		&:nth-child(1) {
+			a:before {
+				content: url(/img/linkedin.png);
+			}
+		}
+		&:nth-child(2) {
+			margin: 0 20px;
+			a:before {
+				content: url(/img/facebook.png);
+			}
+		}
+		&:nth-child(3) {
+			a:before {
+				content: url(/img/twitter.png);
+			}
+		}
+	}
+}
